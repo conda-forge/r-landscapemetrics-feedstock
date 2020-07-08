@@ -5,7 +5,7 @@ Home: https://r-spatialecology.github.io/landscapemetrics/
 
 Package license: GPL-3
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Calculates landscape metrics for categorical landscape patterns in  a tidy workflow. 'landscapemetrics' reimplements the most common metrics from 'FRAGSTATS' (<https://www.umass.edu/landeco/research/fragstats/fragstats.html>)  and new ones from the current literature on landscape metrics. This package supports 'raster' spatial objects and takes  RasterLayer, RasterStacks, RasterBricks or lists of RasterLayer from the 'raster' package as input arguments. It further provides utility functions to visualize patches, select metrics and building blocks to develop new  metrics.
 
