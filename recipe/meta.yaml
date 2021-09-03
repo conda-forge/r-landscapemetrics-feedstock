@@ -1,4 +1,4 @@
-{% set version = "1.5.3" %}
+{% set version = "1.5.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/landscapemetrics_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/landscapemetrics/landscapemetrics_{{ version }}.tar.gz
-  sha256: c051a03251ba522a3bbf97f38959cb9bd6a60c0e0fc3341b682af9e97f35146a
+  sha256: 3487c71d40729e595e12ed7ab3a07039afce7201a3aaf08c3e8a3c460d0455e3
 
 build:
   merge_build_host: true  # [win]
