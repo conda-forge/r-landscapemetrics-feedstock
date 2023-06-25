@@ -30,9 +30,10 @@ requirements:
     - {{ posix }}sed               # [win]
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
-    - r-rcpp
+    - r-rcpp >=1.0.10
     - r-rcpparmadillo
     - r-cli
     - r-ggplot2
@@ -42,7 +43,7 @@ requirements:
   run:
     - r-base
     - {{ native }}gcc-libs         # [win]
-    - r-rcpp
+    - r-rcpp >=1.0.10
     - r-rcpparmadillo
     - r-cli
     - r-ggplot2
