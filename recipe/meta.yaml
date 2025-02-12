@@ -1,4 +1,4 @@
-{% set version = "2.2" %}
+{% set version = "2.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/landscapemetrics_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/landscapemetrics/landscapemetrics_{{ version }}.tar.gz
-  sha256: 9509b54b3f854855c58d7412755c8a77841373bb7a457d99014bb9169a2d3d11
+  sha256: b28e3e3782e780cf8bb63dcceeaf5b5cee22ed0409513bfb49db782e59e3a76d
 
 build:
   number: 0
